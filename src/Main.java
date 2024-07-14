@@ -4,18 +4,27 @@ import java.util.Arrays;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
 
-    int a ;
+   static int a ;
     static Integer b;
     public static void main(String[] args) {
 
 //        System.out.println(b);
-        Main m = new Main();
-        System.out.println(m.a);
-        System.out.println(b);
+//        Main m = new Main();
+//        System.out.println(m.a);
+//        System.out.println(b);
 
-        float x = 2.0f;
-        long l = 4000;
-        System.out.println(l+x);
+//        float x = 2.0f;
+//        long l = 4000;
+//        int a = 1000000000;
+//        int b = 1000000000;
+//        int c = 1000000000;
+//        int d = 1000000000;
+//        long res = a+b+c+d;
+        int x ;
+
+//        System.out.println(x);
+        System.out.println(a);
+//        func();
         // Press Alt+Enter with
         // your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
@@ -26,4 +35,8 @@ public class Main {
 
 
     }
+//        static public void func(){
+//            int z;
+//            System.out.println(z);
+//        }
 }
