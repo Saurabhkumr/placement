@@ -23,7 +23,7 @@ public class permutation {
             char ch = up.charAt(0);
             list.addAll(letterPermutation(f + ch + l, up.substring(1)));
         }
-        return list;
+        return list; 
 
     }
 

@@ -5,13 +5,14 @@ import java.util.Scanner;
 
 public class DayFromDate {
     public static void main(String[] args) {
-        int year = 2020;
         String[] days={"SAT","SUN","MON","TUE","WED","THU","FRI"};
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the month : ");
-        int m =sc.nextInt();
         System.out.println("Enter the date : ");
         int d =sc.nextInt();
+        System.out.println("Enter the month : ");
+        int m =sc.nextInt();
+        System.out.println("Enter the year : ");
+        int year =sc.nextInt();
         if(m<3) {
             m += 12;
             year-=1;
@@ -24,4 +25,5 @@ public class DayFromDate {
 
 
     }
+
 }
